@@ -5,7 +5,7 @@ public class Main {
         Product p = new Product();
         int ans = p.product(1,2);
         int ans1 = p.product(1,2,3);
-        int ans3 = p.product(1.2,1.4);
+        int ans3 = (int) p.product(1.2,1.4);
         System.out.println(ans+" "+ans1+" "+ans3);
     }
     public static class Product{
